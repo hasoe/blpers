@@ -1,16 +1,22 @@
 INFO IN DETAIL
 
-Python notebooks to quickly code real time with bdp bdh bds
+Python notebooks to quickly code real time with bdp bdh bds, Excel function builder quickly helps find fields
+Excel Add-in for BQL practice.
 Use Excel addin for bql optimizations and less data usage .- can always upload Excel spreadsheets with vba macros 
-Practice with flds and args
+** Practice with flds and args -> will allow which formulas (bdp/h/s) use which fields (yield/yas/...) 
 
-Regular outgoing .py files
-Automate several steps from Jupiter notebook 
-Eg pairs trading across several ideas, find alpha over time
+Regular outputing .py files -> figure out how to output to either command prompt or some anaconda app (temporarily) or HTML/web based page (long term)
+Automate several steps from Jupiter notebook -> steady work in revisit-blp
+Eg pairs trading across several ideas, find alpha over time - figure out a permanent mkt ID use (BB UNIQ more mid office/GIDP, ISIN prob)
 
-Stack overflow participation 
+Stack overflow participation - continue to scour for xbbg examples
 
-Think in SQL - views, stored procedures, 
+Think in SQL - views, stored procedures, joins/unions, where/groupbys
 How to query in order to make superiors lives easier
 Mimic Richard Griffith, avik Mukherjee
-Practice in SQL mgt studio- against SM view , against STT SDO data
+Practice in SQL mgt studio- against SM view , against STT SDO data -> try to imitate a RUNBK check to validate your code!, make sure the result is very close to expectation
+
+DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
+
+BBG Finance Exploration
+TBA/MTGEs , BBTI/IRSB/FIT/FHCI IR-swaps , CDS/TRS/ABS FI Derivs , Future Options/Swaptions Non-Linears , Bnchmk/Econ Indices , ARKK/AGI Funds ,  
