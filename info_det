@@ -11,12 +11,14 @@ Eg pairs trading across several ideas, find alpha over time - figure out a perma
 
 Stack overflow participation - continue to scour for xbbg examples
 
-Think in SQL - views, stored procedures, joins/unions, where/groupbys
-How to query in order to make superiors lives easier
-Mimic Richard Griffith, avik Mukherjee
-Practice in SQL mgt studio- against SM view , against STT SDO data -> try to imitate a RUNBK check to validate your code!, make sure the result is very close to expectation
+Think in SQL - views, stored procedures, joins/unions, where/groupbys, table+scalar valued funcs.
+** How to query in order to make superiors lives easier
+** Review in Sharepoint Deep Dive Sessions
+* Practice in SQL mgt studio- against SM view , against STT SDO data -> try to imitate a RUNBK check to validate your code!, make sure the result is very close to expectation
+Mimic Richard Griffith, Avik Mukherjee
+Check out the different Kanban boards
+New RBK checks -> from WIP.xlsx migrating to Jira soon
 
 DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
+* Remember Hidden Sheets and Named Formulas (NameManager) in BBG Excel Add-ins
 
-BBG Finance Exploration
-TBA/MTGEs , BBTI/IRSB/FIT/FHCI IR-swaps , CDS/TRS/ABS FI Derivs , Future Options/Swaptions Non-Linears , Bnchmk/Econ Indices , ARKK/AGI Funds ,  
