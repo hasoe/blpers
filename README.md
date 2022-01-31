@@ -16,7 +16,8 @@ Create a customized macro analysis framework (basic: Rates v Spreads v Indices /
   b- eg UST 2Y v 10Y v CDX IG v CDX HY (Curve Structure & Spreads)
   c- eg SPX v VIX (Volatility / Greeks)
   d- eg FX Fwd/Swaps v OIS-implied rates
-  e- eg 
+  e- eg TBA/MTGEs , BBTI/IRSB/FIT/FHCI IR-swaps , CDS/TRS/ABS FI Derivs , Future Options/Swaptions Non-Linears , Bnchmk/Econ Indices , ARKK/AGI Funds ,  
+
   
 Sourcing Ideas
   a- Macro Man BBG News - Credit Analysis (26.1.22)
@@ -28,11 +29,9 @@ CFA Review and Practice
   b- Asset Allocation BBG XLS Templates
   c- FX Fwd Calcs - Templates, BBG -> trial and error
   
+
+BBG Finance Exploration 
+  
   
 Participate in StackExchange - review/add follows of interesting posts, aim for first question within 2m
 
-Must continue SQL learning @ AGI ("Dirty Work")
-  a- Practice thinking in Query (also: BQL) - Join/Filter & Sort & Grouping - SELECT FROM WHERE - in order to imitate main Excel operations
-  b- Understand the critical Tables, Views, Stored Procedures within AGI GIDP - use current BAU / Runbook topics to explore the use-cases
-    i- Stored Procs offer rea
-  c- 
