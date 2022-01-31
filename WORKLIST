@@ -1,17 +1,27 @@
-INFO IN DETAIL
+====== BBG ======
 
 Python notebooks to quickly code real time with bdp bdh bds, Excel function builder quickly helps find fields
 Excel Add-in for BQL practice.
 Use Excel addin for bql optimizations and less data usage .- can always upload Excel spreadsheets with vba macros 
 ** Practice with flds and args -> will allow which formulas (bdp/h/s) use which fields (yield/yas/...) 
 
+
+DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
+* Remember Hidden Sheets and Named Formulas (NameManager) in BBG Excel Add-ins
+
+
 Regular outputing .py files -> figure out how to output to either command prompt or some anaconda app (temporarily) or HTML/web based page (long term)
 Automate several steps from Jupiter notebook -> steady work in revisit-blp
-Eg pairs trading across several ideas, find alpha over time - figure out a permanent mkt ID use (BB UNIQ more mid office/GIDP, ISIN prob)
+Eg pairs trading across several ideas, find alpha over time - figure out a permanent mkt ID use (use ISIN as default)
+
+
+====== COMMUNITY ======
 
 Stack overflow participation - continue to scour for xbbg examples
 
-Think in SQL - views, stored procedures, joins/unions, where/groupbys, table+scalar valued funcs.
+
+====== AGI ======
+Think in SQL (+BQL) - SELECT FROM WHERE - views, stored procedures, joins, unions, where/filtering, grouping, sorting, table+scalar valued funcs - in order to imitate main Excel operations
 ** How to query in order to make superiors lives easier
 ** Review in Sharepoint Deep Dive Sessions
 * Practice in SQL mgt studio- against SM view , against STT SDO data -> try to imitate a RUNBK check to validate your code!, make sure the result is very close to expectation
@@ -19,6 +29,5 @@ Mimic Richard Griffith, Avik Mukherjee
 Check out the different Kanban boards
 New RBK checks -> from WIP.xlsx migrating to Jira soon
 
-DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
-* Remember Hidden Sheets and Named Formulas (NameManager) in BBG Excel Add-ins
+
 
