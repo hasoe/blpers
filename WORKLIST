@@ -1,46 +1,130 @@
+Interview Thierry---
+- re-emphasize desire to gain IT skills: Programming abilities, Cloud technologies, Data architecture, 
+	- aim towards Data Engineer role
+	- have desire to learn the workflows, eg autosys (Avik/Rich knowledge) / and SQL-Server infra (tables: store/stage/delete/pruning/etc, stored procs and triggers)
+- BAU responsibilities: EU RBK, working with TechM	
+	- achievements: have learned SQL relatively quickly, want to learn more and solve problems thru RUN
+- Teams Communities: Data community/ Maxwell community. 
+- Review/Forecast: leveraging RUN problems to exercise SQL skills. Big projects (Fusion/ ESG/ ABOR/ RAPM TOM)
+- 
+
+programming proficiency translates to good job performance / learning and personal dev plan
+job growth and role expectations - 3+ yr timeframe
+convey motivation and engagement in tone
+
+BAU as preparation for more responsibilities and projects - taking ownership of developing/refining Runbook checks, working with stakeholders/partners (STT, DS, other AGI),  
+
+SHOW passion in work - three pillars - Finance, Tech, Education
+
+
+
+
+
+====== WORK TO-DO ======
+REQUEST 7-ZIP AND FILEZILLA
+GET UP TO SPEED ON JIRAs - navigation, Kanban (diff boards/create your own?), 
+
+
+AVIK TRAINING VIDEO - 6:26 - GIDP_REP IT Presentation July 7 2021 (Knowledge Share on SP)
+
+====== OUTLOOK COMMANDS ======
+Search within Flagged emails ONLY:: xxx followupflag:followup flag
+
+
+====== JIRA COMMANDS ======
+
+
+
 ====== BBG ======
-
-Python notebooks to quickly code real time with bdp bdh bds, Excel function builder quickly helps find fields
-Excel Add-in for BQL practice.
-Use Excel addin for bql optimizations and less data usage .- can always upload Excel spreadsheets with vba macros 
-** Practice with flds and args -> will allow which formulas (bdp/h/s) use which fields (yield/yas/...) 
-
-
-DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
-* Remember Hidden Sheets and Named Formulas (NameManager) in BBG Excel Add-ins
-
+Use Excel addin for bql optimizations and less data usage - can always upload Excel spreadsheets with vba macros 
+* Practice with flds and args -> will allow which formulas (bdp/h/s) use which fields (yield/yas/...) 
+* DAPI Constructing Formulas/Troubleshooting Help - keep reading thoroughly! (important)
+* Remember Hidden Sheets and Named Formulas (NameManager) in BBG Excel Templates
 
 Regular outputing .py files -> figure out how to output to either command prompt or some anaconda app (temporarily) or HTML/web based page (long term)
 Automate several steps from Jupiter notebook -> steady work in revisit-blp
 Eg pairs trading across several ideas, find alpha over time - figure out a permanent mkt ID use (use ISIN as default)
 
+-?? SM SME Custom Analytics with BBG XLS/BQL - backtested? (inflation regime change)? / L-S model with macro-or-index-hedged
 
 ====== COMMUNITY ======
+Stack overflow participation!! start asking questions (most are already asked)?
 
-Stack overflow participation - continue to scour for xbbg examples
+
+====== AGI ====== 
+*** TRANSFERABLE (FUTURE) SKILLS ***
+1- Python
+2- Kubernetes/Docker
+3- Angular/TypeScript
+4- Azure Data Factory/Azure SQL
+5- Data Lake/Databricks
+6- Bitbucket/Git
+7- Jenkins/Azure DevOps
+8- REST/JSON/XML
+9- Apache Spark (PySpark)
+10- MapReduce/Apache Hadoop
+11- PyTorch/ML - Tensors/AutoDiff/NLP
 
 
-====== AGI ======
-Think in SQL (+BQL) - SELECT FROM WHERE - views, stored procedures, joins, unions, where/filtering, grouping, sorting, table+scalar valued funcs - in order to imitate main Excel operations
-** How to query in order to make superiors lives easier
-** Review in Sharepoint Deep Dive Sessions
-* Practice in SQL mgt studio- against SM view , against STT SDO data -> try to imitate a RUNBK check to validate your code!, make sure the result is very close to expectation
-Mimic Richard Griffith, Avik Mukherjee
-Check out the different Kanban boards
+*** SQL ***
+joins, unions, where/filtering, grouping/sorting, functions/stored procs - how they can all combine (think: imitating Excel operations and automating steps)
+** Review in Sharepoint Deep Dive Sessions -> GIDP-REP > Knowledge Share
+ Practice - against SM view , against STT SDO data -> continue to imitate RBK checks (look at GST SQL, GIDP REP, T_SQL_STORE)
+
 New RBK checks -> from WIP.xlsx migrating to Jira soon
-
-CV JOB DESCRIPTION
-
-Help ensure investment book of record (IBOR) data quality and integrity through an in depth understanding of the wide array of data structures and sets - securities, credit ratings, sector classifications, analytics, transactions, positions, portfolio valuations, and benchmarks. 
-•	Perform daily SQL queries via an automated run-book check, using Bloomberg to cross-reference against the upstream data flows feeding into the internal IBOR database.
-•	Create and monitor JIRA stories to program new features and repair issues, adopting an Agile methodology to continuously improve the BAU process.
+GST Code: GST Slowness email 3.23.22
 
 
+================================================
+*** SQL SERVER ***
+** EDM **
+* Ts *
+EDM.dbo.T_STT_%%%
+	For EU-BC Checks::
+	T_MASTER_POS, T_MASTER_POS_LOT - Mastered
+	T_STT_POS, T_STT_POS_LOT (SLH / LLH) - search for "file_name" - after 5 days, gets archived to Store tables
+EDM.DBO.T_DAILY_ATTRIBUTE_CHANGE_REPORT_SEC_OUT_STORE - FROM HA2.1 Check US
+EDM.dbo.T_AIM_SEC_MASTER_IN_STORE - 23Mar22 pull AIM sources adhoc query (AP-EB)
+EDM.DBO.T_PROCESS_MONITOR - FROM LC2.2 Check US (DQD003652) - MSCI BarraOne - Recvd Date - daily volume chg
 
-Hi Wiwi,
 
-Thank you very much for your candid reply; it was very helpful and I highly appreciate the feedback. I was able to apply for the job listing initially via LinkedIn as you recommended with my updated CV.
+* VWs *
+EDM.DBO.VW_MASTER_SECURITY - FROM FA2.1 Check US (DQD001353) - Metrics on Security Creations - UI Sec Creation Dashbd vs SM Data Dump
 
-I agree that because an international posting carries with it a certain level of commitment, I would want to be very intentional from my end about my career strategy. I do believe in the goals and remit of our EDM department, and it is my hope in due course to learn, develop, and network with many talented colleagues across the company in Frankfurt. As you alluded, the department has strategic backing from above and is growing as seen on the job board as well and I feel quite encouraged.
 
-(To be fair, I am so far not complaining earning in US Dollars at the moment! 😊)
+* SPs *
+EDM.dbo.SP_GET_SEC_MASTER_ATTRIBUTE_CHANGE_AUDIT
+EDM.dbo.SP_SM_MASS_OVERRIDE
+EDM.dbo.GIDP_RunLog
+EDM.dbo.BPS_REQUEST_GET
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+** GIDP-REP **
+* Ts *
+GIDP_REP.Check/Audit.T_DM_SQLSTORE -> has unique SQL_DB_IDs
+GIDP_REP.Audit.T_DM_DATACHECK_RUN_LOG - gst (Primary Key: RUN_ID)
+GIDP_REP.schedule.T_DM_MAPSCHEDULEJOB/T_DM_SCHEDULE_TYPES - gst -> various .JobNames
+GIDP_REP.Result.T_DM_REVIEWRESULT - gst GDM comments stored here
+GIDP_REP.Check.T_DM_CHECKDETAIL - gst
+GIDP_REP.Check.T_DM_CHECKMASTER/GROUP/SUBGROUP - stores check info (descriptions, enable/disable, etc)
+GIDP_REP.Check.T_DM_STOREMGT -> STORE_DB_ID, TABLE_SUFFIX
+
+* VWs *
+GIDP_REP.dbo.VW_DM_RUNBOOK_SELECTIVE
+GIDP_REP.dbo.VW_DM_OFFICIAL_RUN - gst
+GIDP_REP.Result.VW_DM_CONSOLIDATED_CHECKRESULT - gst
+GIDP_REP.dbo.VW_DM_RESULTREVIEW - gst
+
+* SPs *
+GIDP_REP.dbo.SP_DM_WRAPPER_DATACHECK - ? (related to rbk)
+
+
+SAMPLE/HELPFUL SQL
+select * from gidp_reporting.[common].t_dm_checkmaster l1 where Checkmaster_id ='E'
+select * from gidp_reporting.[common].t_dm_checkGROUP l2 where CHECKMASTER_DB_ID = 'DQM000005'
+select * from gidp_reporting.[common].t_dm_checksubGROUP l3 where CHECKGROUP_DB_ID = 'DQG000016'
+select * from gidp_reporting.[Check].t_dm_checkheader l4 where CHECKSUBGROUP_DB_ID = 'DQS000044'
+select * from GIDP_Reporting.[Check].[T_DM_CHECkdetail] l5 where CHECKHEADER_DB_ID = 'DQH000719'
+select * from gidp_reporting.[check].T_DM_SQLSTORE L6 where script like '%EB7.7.2%'
+select * from gidp_reporting.[check].T_DM_STORE_MANAGEMENT where table_Suffix = 'E'
+
