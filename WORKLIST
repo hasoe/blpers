@@ -128,3 +128,22 @@ select * from GIDP_Reporting.[Check].[T_DM_CHECkdetail] l5 where CHECKHEADER_DB_
 select * from gidp_reporting.[check].T_DM_SQLSTORE L6 where script like '%EB7.7.2%'
 select * from gidp_reporting.[check].T_DM_STORE_MANAGEMENT where table_Suffix = 'E'
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+NY ELOPEMENT	
+flight	510
+rings	2620
+license	35
+cp fee	25
+certificates	100
+cake	60
+officiant	489,9375
+photographer	1252,0625
+drinks reception	1000
+	
+UK BLESSING	20-25 guests
+breakfast (8pp)	160
+pizza (12pp)	240
+groceries/liquor	200
+b&b for uncle	350
+travel/logistics	300
